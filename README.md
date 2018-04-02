@@ -1,10 +1,10 @@
 # xyz90161
 範例使用:
-  JDK 1.8</br>
+JDK 1.8</br>
 tomcat 8.5</br>
 spring boot 2.0.0</br>
 描述:</br>
-在spring boot 2.0.0的框架下使用gradle建置並且能夠返回jsp頁面  </br>
+在spring boot 2.0.0的框架下使用gradle建置並且能夠返回jsp頁面,你可以使用servlet的方式或者controller的方式</br>
 
 eclipse設定:</br>
 在properties中設定deployment Assembly中 Add  Source:/src/main/webapp   Deploy Path:/</br>
@@ -26,8 +26,12 @@ compile('org.projectlombok:lombok:1.16.20')</br>
 此行讓tomcat啟用時能夠啟動spring boot</br>
 providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')</br>
 
-在瀏覽器輸入URL測試是否返回頁面:</br>
+在瀏覽器輸入URL測試controller是否返回頁面:</br>
 http://localhost:8060/${projectName}/hello</br>
+
+
+在瀏覽器輸入URL測試servlet是否返回頁面:</br>
+http://localhost:8060/${projectName}/index</br>
 
 返回Hello World!文字，可以測試controller是否正常工作
 http://localhost:8060/${projectName}/helloWorld</br>
