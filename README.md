@@ -28,3 +28,7 @@ providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')</br>
 
 在瀏覽器輸入URL:</br>
 http://localhost:8060/Test2/hello</br>
+
+
+注意在eclipse測試時可以在eclipse的 ${workspace}\${project}\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps
+中查看目錄結構，以便調試。</br>
