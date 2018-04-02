@@ -26,9 +26,5 @@ compile('org.projectlombok:lombok:1.16.20')
 此行讓tomcat啟用時能夠啟動spring boot
 providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
 
-
-
-
-
 在瀏覽器輸入URL:
 http://localhost:8060/Test2/hello
