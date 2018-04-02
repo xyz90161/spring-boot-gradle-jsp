@@ -7,6 +7,13 @@ spring boot 2.0.0</br>
 在spring boot 2.0.0的框架下使用gradle建置並且能夠返回jsp頁面,你可以使用servlet的方式或者controller的方式</br>
 
 eclipse設定:</br>
+將專案import至eclipse中選擇gradle(STS) project:</br>
+![image](https://github.com/xyz90161/spring-boot-gradle-jsp/blob/master/other2.PNG)</br>
+
+選擇build model:</br>
+![image](https://github.com/xyz90161/spring-boot-gradle-jsp/blob/master/other3.png)</br>
+
+
 在properties中設定deployment Assembly中 Add  Source:/src/main/webapp   Deploy Path:/</br>
 將webapp下面的目錄WEB-INF佈署到root diectory中</br>
 ![image](https://github.com/xyz90161/spring-boot-gradle-jsp/blob/master/other1.png)
